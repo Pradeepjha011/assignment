@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FDCB00;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Latest Works Section */
+.latest-works {
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.latest-works h1 {
+    margin-bottom: 10px;
+}
+
+.categories button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #FDCB00;
+    color: #FDCB00;
+    cursor: pointer;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.portfolio-grid div img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Work Experience Section */
+.work-experience {
+    padding: 50px;
+    text-align: center;
+}
+
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.experience-item {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Hire Me Section */
+.hire-me {
+    background-color: #FDCB00;
+    text-align: center;
+    padding: 50px;
+}
+
+.hire-me h2 {
+    margin-bottom: 20px;
+}
+
+.hire-me .btn {
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #f9f9f9;
+    padding: 30px;
+    text-align: center;
+}
+
+footer .logo {
+    font-size: 24px;
+    color: #FDCB00;
+}
+
+footer .social-links {
+    margin-top: 20px;
+}
+
+footer .social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #555;
+}
